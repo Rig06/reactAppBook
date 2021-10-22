@@ -2,11 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import './components/Footer/Footer'
+
+
 import reportWebVitals from './reportWebVitals';
+import Footer from './components/Footer/Footer';
+
+
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  
+
+    <App /> 
+    <Footer/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
